@@ -227,6 +227,24 @@ $databases = array (
     ),
   ),
 );
+/*
+$databases = array (
+  'default' => 
+  array (
+    'default' => 
+    array (
+      'database' => 'dronengi_drupalb9c',
+      'username' => 'dronengi_drupb9c',
+      'password' => 'ghRbhrqQ4ytp',
+      'host' => '50.87.249.69',
+      'port' => '3306',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
+*/
+
 
 /**
  * Access control for update.php script.
