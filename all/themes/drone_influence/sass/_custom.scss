@@ -1,0 +1,48 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header{
+	min-height: 550px;
+	background: image-url("homepage.jpg") no-repeat center center;
+	background-size: cover;
+	
+	#block-views-exp-filter-ideas-page{
+		max-width: 780px;
+		margin: 130px auto 0;
+	}
+	
+	.views-exposed-widget.views-reset-button{
+		display: none;
+	}
+	
+	.views-widget-filter-combine{
+		width: 700px;
+		padding-right: 0;
+		
+		label{
+			display: block;
+			line-height: 70px;
+			text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+		    font-size: 50px;
+		    color: #fff;
+		    height: 70px;
+		}
+	}
+	
+	.views-submit-button{
+		margin-top: 78px;
+		padding: 0;
+	}
+	
+	.views-exposed-widget{
+		input.form-text{
+			width: 100%;
+		}
+		input.form-submit{
+			margin-top: 0;
+			padding: 17px 24px;
+		}
+	}
+	
+}
